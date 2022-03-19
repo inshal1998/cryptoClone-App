@@ -3,12 +3,13 @@ import {
     View,
     Text
 } from 'react-native';
+import { MainLayout } from './';
 
 const Market = () => {
     return (
-        <View>
+        <MainLayout>
             <Text>Market</Text>
-        </View>
+        </MainLayout>
     )
 }
 
